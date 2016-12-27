@@ -1,9 +1,6 @@
-language: php
-php:
-  - 5.5
-before_script:
-  - cd testing
-  - cat test
+language: python
+python:
+  - "2.7"
 deploy:
   bucket: powerline-server-builds
   provider: s3
